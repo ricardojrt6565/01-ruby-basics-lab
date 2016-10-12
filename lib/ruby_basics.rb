@@ -1,23 +1,23 @@
-def division
-    
+def division(x,y)
+    x/y 
 end
 
-def argue
-  
+def argue(argument)
+  return argument
 end
 
-def greeting
-
+def greeting(name, age)
+"#{name} #{age}"
 end
 
 def return_a_value
-    
+    "Nice"
 end
 
-def pizza_party
-    
+def pizza_party(default = "cheese")
+   default
 end
 
-def whisper
-    
+def whisper(word)
+    word.downcase
 end
